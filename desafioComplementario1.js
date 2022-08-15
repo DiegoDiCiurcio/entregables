@@ -10,7 +10,8 @@ for (let i = 0; i<=100; i++){
     if (i == unNumero){
         break
     }
-    // alert (i)
+
+    alert ("Numero Ingresado " + unNumero + ", porfavor chequee la consola.")
     console.log (i)
 }
 
@@ -21,5 +22,5 @@ while (ejecutar) {
     if (numeroIncremento == unNumeroWhile){
         break;
     }
-    console.log (numeroIncremento++);
+    alert (numeroIncremento++);
 }
